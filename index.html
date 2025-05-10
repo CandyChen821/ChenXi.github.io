@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#165DFF',
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+    <div class="container mx-auto px-4 py-16 max-w-3xl">
+        <div class="text-center">
+            <h1 class="text-[clamp(2rem,5vw,3.5rem)] font-bold text-primary mb-6">ChenXi</h1>
+            <p class="text-[clamp(1rem,2vw,1.25rem)] text-gray-600 mb-8">华南理工大学</p>
+            
+            <div class="space-y-4 text-left">
+                <div class="flex items-start">
+                    <i class="fa-solid fa-envelope text-primary mt-1 mr-3"></i>
+                    <span>Email: 202230110461@mail.scut.edu.cn</span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
